@@ -1,0 +1,12 @@
+# Ignore Boost and Crow
+boost_1_83_0/
+crow/
+
+# Ignore logs and temporary files
+logs/
+*.log
+
+# Ignore OpenSSL csr, certicates, and keys
+*.csr
+*.crt
+*.key
