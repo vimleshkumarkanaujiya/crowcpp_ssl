@@ -1,6 +1,10 @@
 # C++ Crow Web Framework Using SSL Certificate
 
-### Follow steps to generate a Self Signed Certificate 
+### Dependencies Required:
+1. Boost C++ Library
+2. Crow C++ Web Framework
+
+### Follow the steps to generate a Self Signed Certificate 
 
 ## Run as Root
 ``sudo su``
@@ -27,6 +31,6 @@ Replace your_cert.crt with the desired name for your certificate file:
 
 I am using <b>localhost_csr.csr</b> and <b>localhost.key</b>, which we previously generated.
 
-## .crt and .key files are generated in home directory
+## .crt and .key files are generated in the home directory
 Copy those two files to the root directory of your project.
 
