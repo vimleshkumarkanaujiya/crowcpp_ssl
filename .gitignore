@@ -2,8 +2,9 @@
 boost_1_83_0/
 crow/
 
-# Ignore executable file
+# Ignore executable and make files
 Main
+Makefile
 
 # Ignore CMakeFiles
 CMakeFiles/
