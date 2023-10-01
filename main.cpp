@@ -35,6 +35,9 @@ void sendImage(response &res, string filename){
     sendFile(res, "images/" + filename, "image/jpeg");
 }
 
+void sendFont(response &res, string filename){
+    sendFile(res, "fonts/" + filename, "font/ttf");
+}
 
 int main(int argc, char* argv[])
 {
@@ -53,6 +56,11 @@ int main(int argc, char* argv[])
     CROW_ROUTE(app, "/images/<string>")
     ([](const request &req, response &res, string filename){
      sendImage(res, filename);
+    });
+
+    CROW_ROUTE(app, "/fonts/<string>")
+    ([](const request &req, response &res, string filename){
+     sendFont(res, filename);
     });
 
     CROW_ROUTE(app, "/")
