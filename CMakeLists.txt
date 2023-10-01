@@ -10,7 +10,6 @@ set(CROW_FEATURES "ssl")
 
 add_executable(Main main.cpp)
 
-target_link_libraries(Main PRIVATE OpenSSL::SSL OpenSSL::Crypto)
-
 target_include_directories(Main PUBLIC ${INCLUDE_PATHS})
 
+target_link_libraries(Main PRIVATE OpenSSL::SSL OpenSSL::Crypto)

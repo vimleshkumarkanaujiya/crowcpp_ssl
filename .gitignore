@@ -2,9 +2,15 @@
 boost_1_83_0/
 crow/
 
-# Ignore logs and temporary files
-logs/
-*.log
+# Ignore executable file
+Main
+
+# Ignore CMakeFiles
+CMakeFiles/
+
+# Ignore CMake temporary files
+cmake_install.cmake
+CMakeCache.txt
 
 # Ignore OpenSSL csr, certicates, and keys
 *.csr
