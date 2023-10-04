@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/localhost/crowcpp/build",
-  "command": "/usr/bin/g++  -I/home/localhost/crowcpp/boost_1_83_0 -I/home/localhost/crowcpp/crow/include -g -o CMakeFiles/Main.dir/main.cpp.o -c /home/localhost/crowcpp/main.cpp",
-  "file": "/home/localhost/crowcpp/main.cpp"
-}
-]
