@@ -6,8 +6,9 @@ crow/
 Main
 Makefile
 
-# Ignore CMakeFiles
+# Ignore Build and CMakeFiles
 CMakeFiles/
+build/
 
 # Ignore CMake temporary files
 cmake_install.cmake
